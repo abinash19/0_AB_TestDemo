@@ -10,6 +10,8 @@ System.out.println("Abinash");
  int i =100;
  System.out.println(s+r);
  System.out.println(s+r+i);
+ System.out.println("Lone Ranger");
+
  
 
 	}
