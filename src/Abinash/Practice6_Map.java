@@ -10,7 +10,13 @@ public class Practice6_Map {
 		Map<String,String> mapper=new HashMap<String,String>();
 		mapper.put("Prerna", "Mohanty");
 		mapper.put("Abinash", "Patra");
-
+   for (Map.Entry<String, String> e :mapper.entrySet()) {
+	   System.out.println(e.getKey()+" "+e.getValue());
+	   
+   }
+		
+		
+		
 	}
 
 }
